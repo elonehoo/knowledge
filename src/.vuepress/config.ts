@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
+  base:'/knowledge/',
   // 站点配置
   lang: 'zh-CN',
   title: 'knowledge',
