@@ -146,10 +146,10 @@ export default defineUserConfig<DefaultThemeOptions>({
                     text:'git常用命令及技巧',
                     link:'/git/commonly-used.md'
                   },
-                  {
-                    text:'Git版本控制管理',
-                    link:'/git/version.md'
-                  },
+                  // {
+                  //   text:'Git版本控制管理',
+                  //   link:'/git/version.md'
+                  // },
                 ]
               },
               {
@@ -322,10 +322,10 @@ export default defineUserConfig<DefaultThemeOptions>({
                   text:'webpack插件收集',
                   link:'/webpack/plugins.md'
                 },
-                {
-                  text:'webpack4.0+ 特性总结',
-                  link:'/webpack/webpack4.md'
-                },
+                // {
+                //   text:'webpack4.0+ 特性总结',
+                //   link:'/webpack/webpack4.md'
+                // },
                 {
                   text:'webpack优化总结',
                   link:'/webpack/optimization.md'
@@ -471,10 +471,10 @@ export default defineUserConfig<DefaultThemeOptions>({
                   text:'git常用命令及技巧',
                   link:'/git/commonly-used.md'
                 },
-                {
-                  text:'Git版本控制管理',
-                  link:'/git/version.md'
-                },
+                // {
+                //   text:'Git版本控制管理',
+                //   link:'/git/version.md'
+                // },
               ]
             },
             {
@@ -647,10 +647,10 @@ export default defineUserConfig<DefaultThemeOptions>({
                 text:'webpack插件收集',
                 link:'/webpack/plugins.md'
               },
-              {
-                text:'webpack4.0+ 特性总结',
-                link:'/webpack/webpack4.md'
-              },
+              // {
+              //   text:'webpack4.0+ 特性总结',
+              //   link:'/webpack/webpack4.md'
+              // },
               {
                 text:'webpack优化总结',
                 link:'/webpack/optimization.md'
