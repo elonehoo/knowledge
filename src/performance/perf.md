@@ -15,7 +15,7 @@
 
 答：如下图所示：
 
-<img src="/asset/img/perf.jpeg" width="700"/>
+<img src="/img/perf.jpeg" width="700"/>
 
 开发者通常通过 `DevTools` 来分析，用 `WebPerf APIS` 来获取和上报数据。
 
