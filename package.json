@@ -1,0 +1,15 @@
+{
+  "name": "knowledge",
+  "version": "0.0.1",
+  "description": "The knowledge that front-end (Not just) engineers must master after all",
+  "main": "index.js",
+  "author": "Elone Hoo",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
+}
