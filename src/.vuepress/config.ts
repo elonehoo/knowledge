@@ -6,23 +6,178 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: 'knowledge',
   description: 'The knowledge that front-end (Not just) engineers must master after all',
-
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
+    repo:'xiaoxunyao/knowledge',
     logo: 'logo/logo.svg',
     navbar: [
         {
             text:'基础知识',
-            link:'/basis/'
+            children:[
+              {
+                text:'语言基础',
+                children:[
+                  {
+                    text:'函数',
+                    link:'/basis/func'
+                  },
+                  {
+                    text:'数组',
+                    link:'/basis/array'
+                  },
+                  {
+                    text:'字符串',
+                    link:'/basis/string'
+                  },
+                  {
+                    text:'正则表达式',
+                    link:'/basis/regexp'
+                  },
+                  {
+                    text:'异步处理',
+                    link:'/basis/async'
+                  },
+                  {
+                    text:'Object.*',
+                    link:'/basis/object'
+                  },
+                ]
+              },
+              {
+                text:"DOM",
+                children:[
+                  {
+                    text:'DOM操作',
+                    link:'/dom/dom'
+                  },
+                  {
+                    text:'DOM事件',
+                    link:'/dom/dom-event'
+                  },
+                ]
+              },
+              {
+                text:"规范与概念",
+                children:[
+                  {
+                    text:'js编码规范 .eslitrc.js',
+                    link:'/specification/eslintrc'
+                  },
+                  {
+                    text:'无障碍访问与ARIA',
+                    link:'/specification/aria'
+                  },
+                  {
+                    text:'文档模式',
+                    link:'/specification/dtd'
+                  },
+                  {
+                    text:'MIME type',
+                    link:'/specification/mime'
+                  },
+                  {
+                    text:'语义版本控制',
+                    link:'/specification/semantic-version'
+                  }
+                ]
+              },
+              {
+                text:'计算机基础',
+                children:[
+                  {
+                    text:'概念汇总',
+                    link:'/computer/concept'
+                  }
+                ]
+              }
+            ]
         },
         {
             text:'H5/CSS',
-            link:'/h5/'
+            children:[
+              {
+                text:'CSS',
+                children:[
+                  {
+                    text:'CSS选择器整理',
+                    link:'/css3/selector'
+                  },
+                  {
+                    text:'transform',
+                    link:'/css3/transform'
+                  },
+                  {
+                    text:'从矩阵与空间操作的关系理解CSS3的transform',
+                    link:'/css3/matrix'
+                  },
+                  {
+                    text:'BFC',
+                    link:'/css3/bfc'
+                  },
+                ]
+              },
+              {
+                text:'H5',
+                children:[
+                  {
+                    text:'Blob(binary large object)',
+                    link:'h5/blob'
+                  },
+                  {
+                    text:'File 和 FileList',
+                    link:'h5/file-filelist'
+                  }
+                ]
+              }
+            ]
         },
         {
             text:'Git/Linux',
-            link:'/git/'
+            children:[
+              {
+                text:'Git',
+                children:[
+                  {
+                    text:'config配置项',
+                    link:'/git/config'
+                  },
+                  {
+                    text:'git常用命令及技巧',
+                    link:'/git/commonly-used'
+                  },
+                  {
+                    text:'Git版本控制管理',
+                    link:'/git/version'
+                  },
+                ]
+              },
+              {
+                text:'Linux',
+                children:[
+                  {
+                    text:'Ubuntu使用知识积累',
+                    link:'/linux/ubuntu-utils'
+                  }
+                ]
+              }
+            ]
+        },
+        {
+          text:'网络/安全',
+          link:'/http/'
+        },
+        {
+          text:'性能/兼容性',
+          link:'/performance/'
+        },
+        {
+          text:'算法/数据结构',
+          link:'/algorithm/'
+        },
+        {
+          text:'框架',
+          link:'/framework/'
         }
     ]
   },
