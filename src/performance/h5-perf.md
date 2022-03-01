@@ -24,7 +24,7 @@
 
 在弱网情况下如 2G/3G 网络，根据 chrome 浏览器开发者工具的 `Network` 中的限流控制，我们可以做出相应的衡量，如图：
 
-<img src="../../asset/img/net.png" width="700" />
+<img src="/img/net.png" width="700" />
 
 2G弱网的平均网速约为 300kb/s，3弱网的最差网速为 250kb/s，兼顾 2G/3G，我们可以去 250kb/s 为标准，那么想要在 3s 内完成渲染，资源的体积一定要小于 `250kb/s * 3s = 750kb`。
 
