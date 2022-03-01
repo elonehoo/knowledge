@@ -49,11 +49,11 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children:[
                   {
                     text:'DOM操作',
-                    link:'/dom/dom'
+                    link:'/dom/dom.md'
                   },
                   {
                     text:'DOM事件',
-                    link:'/dom/dom-event'
+                    link:'/dom/dom-event.md'
                   },
                 ]
               },
@@ -62,23 +62,23 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children:[
                   {
                     text:'js编码规范 .eslitrc.js',
-                    link:'/specification/eslintrc'
+                    link:'/specification/eslintrc.md'
                   },
                   {
                     text:'无障碍访问与ARIA',
-                    link:'/specification/aria'
+                    link:'/specification/aria.md'
                   },
                   {
                     text:'文档模式',
-                    link:'/specification/dtd'
+                    link:'/specification/dtd.md'
                   },
                   {
                     text:'MIME type',
-                    link:'/specification/mime'
+                    link:'/specification/mime.md'
                   },
                   {
                     text:'语义版本控制',
-                    link:'/specification/semantic-version'
+                    link:'/specification/semantic-version.md'
                   }
                 ]
               },
@@ -87,7 +87,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children:[
                   {
                     text:'概念汇总',
-                    link:'/computer/concept'
+                    link:'/computer/concept.md'
                   }
                 ]
               }
@@ -101,19 +101,19 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children:[
                   {
                     text:'CSS选择器整理',
-                    link:'/css3/selector'
+                    link:'/css3/selector.md'
                   },
                   {
                     text:'transform',
-                    link:'/css3/transform'
+                    link:'/css3/transform.md'
                   },
                   {
                     text:'从矩阵与空间操作的关系理解CSS3的transform',
-                    link:'/css3/matrix'
+                    link:'/css3/matrix.md'
                   },
                   {
                     text:'BFC',
-                    link:'/css3/bfc'
+                    link:'/css3/bfc.md'
                   },
                 ]
               },
@@ -122,11 +122,11 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children:[
                   {
                     text:'Blob(binary large object)',
-                    link:'h5/blob'
+                    link:'/h5/blob.md'
                   },
                   {
                     text:'File 和 FileList',
-                    link:'h5/file-filelist'
+                    link:'/h5/file-filelist.md'
                   }
                 ]
               }
@@ -140,15 +140,15 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children:[
                   {
                     text:'config配置项',
-                    link:'/git/config'
+                    link:'/git/config.md'
                   },
                   {
                     text:'git常用命令及技巧',
-                    link:'/git/commonly-used'
+                    link:'/git/commonly-used.md'
                   },
                   {
                     text:'Git版本控制管理',
-                    link:'/git/version'
+                    link:'/git/version.md'
                   },
                 ]
               },
@@ -157,7 +157,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children:[
                   {
                     text:'Ubuntu使用知识积累',
-                    link:'/linux/ubuntu-utils'
+                    link:'/linux/ubuntu-utils.md'
                   }
                 ]
               }
@@ -171,27 +171,27 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'get和post请求的区别',
-                  link:'/http/get-post'
+                  link:'/http/get-post.md'
                 },
                 {
                   text:'从输入URL到页面加载完成的过程中都发生了什么事情？',
-                  link:'/http/url-render'
+                  link:'/http/url-render.md'
                 },
                 {
                   text:'ajax及其优缺点',
-                  link:'/http/ajax'
+                  link:'/http/ajax.md'
                 },
                 {
                   text:'跨域及跨域的方案',
-                  link:'/http/cross-domain'
+                  link:'/http/cross-domain.md'
                 },
                 {
                   text:'强缓存与协商缓存',
-                  link:'/http/cache'
+                  link:'/http/cache.md'
                 },
                 {
                   text:'cookie和storage',
-                  link:'/http/cookie-storage'
+                  link:'/http/cookie-storage.md'
                 },
               ]
             },
@@ -200,7 +200,7 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'CSP(内容安全策略)',
-                  link:'/security/csp'
+                  link:'/security/csp.md'
                 }
               ]
             }
@@ -211,31 +211,31 @@ export default defineUserConfig<DefaultThemeOptions>({
           children:[
             {
               text:'性能',
-              link:'/performance/perf'
+              link:'/performance/perf.md'
             },
             {
               text:'H5 性能优化整理',
-              link:'/performance/h5-perf'
+              link:'/performance/h5-perf.md'
             },
             {
               text:'基础性能知识',
-              link:'/performance/performance'
+              link:'/performance/performance.md'
             },
             {
               text:'浏览器渲染页面的过程',
-              link:'/performance/render-page'
+              link:'/performance/render-page.md'
             },
             {
               text:'重排和重绘的概念及触发条件',
-              link:'/performance/reflow-repaint'
+              link:'/performance/reflow-repaint.md'
             },
             {
               text:'数据直出与服务端渲染的首屏优化',
-              link:'/performance/ssr'
+              link:'/performance/ssr.md'
             },
             {
               text:'兼容性',
-              link:'/compatibility/compatibility'
+              link:'/compatibility/compatibility.md'
             },
           ]
         },
@@ -247,27 +247,27 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'数据结构以及相关术语的概念',
-                  link:'/algorithm/data-structure'
+                  link:'/algorithm/data-structure.md'
                 },
                 {
                   text:'栈',
-                  link:'/algorithm/stack'
+                  link:'/algorithm/stack.md'
                 },
                 {
                   text:'队列',
-                  link:'/algorithm/queue'
+                  link:'/algorithm/queue.md'
                 },
                 {
                   text:'链表',
-                  link:'/algorithm/linked-list'
+                  link:'/algorithm/linked-list.md'
                 },
                 {
                   text:'二叉树和二叉查找树',
-                  link:'/algorithm/bst'
+                  link:'/algorithm/bst.md'
                 },
                 {
                   text:'图',
-                  link:'/algorithm/graph'
+                  link:'/algorithm/graph.md'
                 }
               ]
             },
@@ -276,15 +276,15 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'算法的时间复杂度和空间复杂度',
-                  link:'/algorithm/time-space'
+                  link:'/algorithm/time-space.md'
                 },
                 {
                   text:'基本排序算法',
-                  link:'/algorithm/basic-sort'
+                  link:'/algorithm/basic-sort.md'
                 },
                 {
                   text:'高级排序算法',
-                  link:'/algorithm/advance-sort'
+                  link:'/algorithm/advance-sort.md'
                 }    
               ]
             }
@@ -298,11 +298,11 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'博客 Vue 文章汇总',
-                  link:'/vue/all-posts'
+                  link:'/vue/all-posts.md'
                 },
                 {
                   text:'Vue 奇技淫巧',
-                  link:'/vue/skill'
+                  link:'/vue/skill.md'
                 }
               ]
             },
@@ -311,7 +311,7 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'React技术栈相关经验总结',
-                  link:'/react/experience-talk'
+                  link:'/react/experience-talk.md'
                 }
               ]
             },
@@ -320,15 +320,15 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'webpack插件收集',
-                  link:'/webpack/plugins'
+                  link:'/webpack/plugins.md'
                 },
                 {
                   text:'webpack4.0+ 特性总结',
-                  link:'/webpack/webpack4'
+                  link:'/webpack/webpack4.md'
                 },
                 {
                   text:'webpack优化总结',
-                  link:'/webpack/optimization'
+                  link:'/webpack/optimization.md'
                 },
               ]
             }
@@ -374,11 +374,11 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'DOM操作',
-                  link:'/dom/dom'
+                  link:'/dom/dom.md'
                 },
                 {
                   text:'DOM事件',
-                  link:'/dom/dom-event'
+                  link:'/dom/dom-event.md'
                 },
               ]
             },
@@ -387,23 +387,23 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'js编码规范 .eslitrc.js',
-                  link:'/specification/eslintrc'
+                  link:'/specification/eslintrc.md'
                 },
                 {
                   text:'无障碍访问与ARIA',
-                  link:'/specification/aria'
+                  link:'/specification/aria.md'
                 },
                 {
                   text:'文档模式',
-                  link:'/specification/dtd'
+                  link:'/specification/dtd.md'
                 },
                 {
                   text:'MIME type',
-                  link:'/specification/mime'
+                  link:'/specification/mime.md'
                 },
                 {
                   text:'语义版本控制',
-                  link:'/specification/semantic-version'
+                  link:'/specification/semantic-version.md'
                 }
               ]
             },
@@ -412,7 +412,7 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'概念汇总',
-                  link:'/computer/concept'
+                  link:'/computer/concept.md'
                 }
               ]
             }
@@ -426,19 +426,19 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'CSS选择器整理',
-                  link:'/css3/selector'
+                  link:'/css3/selector.md'
                 },
                 {
                   text:'transform',
-                  link:'/css3/transform'
+                  link:'/css3/transform.md'
                 },
                 {
                   text:'从矩阵与空间操作的关系理解CSS3的transform',
-                  link:'/css3/matrix'
+                  link:'/css3/matrix.md'
                 },
                 {
                   text:'BFC',
-                  link:'/css3/bfc'
+                  link:'/css3/bfc.md'
                 },
               ]
             },
@@ -447,11 +447,11 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'Blob(binary large object)',
-                  link:'h5/blob'
+                  link:'/h5/blob.md'
                 },
                 {
                   text:'File 和 FileList',
-                  link:'h5/file-filelist'
+                  link:'/h5/file-filelist.md'
                 }
               ]
             }
@@ -465,15 +465,15 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'config配置项',
-                  link:'/git/config'
+                  link:'/git/config.md'
                 },
                 {
                   text:'git常用命令及技巧',
-                  link:'/git/commonly-used'
+                  link:'/git/commonly-used.md'
                 },
                 {
                   text:'Git版本控制管理',
-                  link:'/git/version'
+                  link:'/git/version.md'
                 },
               ]
             },
@@ -482,7 +482,7 @@ export default defineUserConfig<DefaultThemeOptions>({
               children:[
                 {
                   text:'Ubuntu使用知识积累',
-                  link:'/linux/ubuntu-utils'
+                  link:'/linux/ubuntu-utils.md'
                 }
               ]
             }
@@ -496,27 +496,27 @@ export default defineUserConfig<DefaultThemeOptions>({
             children:[
               {
                 text:'get和post请求的区别',
-                link:'/http/get-post'
+                link:'/http/get-post.md'
               },
               {
                 text:'从输入URL到页面加载完成的过程中都发生了什么事情？',
-                link:'/http/url-render'
+                link:'/http/url-render.md'
               },
               {
                 text:'ajax及其优缺点',
-                link:'/http/ajax'
+                link:'/http/ajax.md'
               },
               {
                 text:'跨域及跨域的方案',
-                link:'/http/cross-domain'
+                link:'/http/cross-domain.md'
               },
               {
                 text:'强缓存与协商缓存',
-                link:'/http/cache'
+                link:'/http/cache.md'
               },
               {
                 text:'cookie和storage',
-                link:'/http/cookie-storage'
+                link:'/http/cookie-storage.md'
               },
             ]
           },
@@ -525,7 +525,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children:[
               {
                 text:'CSP(内容安全策略)',
-                link:'/security/csp'
+                link:'/security/csp.md'
               }
             ]
           }
@@ -536,31 +536,31 @@ export default defineUserConfig<DefaultThemeOptions>({
         children:[
           {
             text:'性能',
-            link:'/performance/perf'
+            link:'/performance/perf.md'
           },
           {
             text:'H5 性能优化整理',
-            link:'/performance/h5-perf'
+            link:'/performance/h5-perf.md'
           },
           {
             text:'基础性能知识',
-            link:'/performance/performance'
+            link:'/performance/performance.md'
           },
           {
             text:'浏览器渲染页面的过程',
-            link:'/performance/render-page'
+            link:'/performance/render-page.md'
           },
           {
             text:'重排和重绘的概念及触发条件',
-            link:'/performance/reflow-repaint'
+            link:'/performance/reflow-repaint.md'
           },
           {
             text:'数据直出与服务端渲染的首屏优化',
-            link:'/performance/ssr'
+            link:'/performance/ssr.md'
           },
           {
             text:'兼容性',
-            link:'/compatibility/compatibility'
+            link:'/compatibility/compatibility.md'
           },
         ]
       },
@@ -572,27 +572,27 @@ export default defineUserConfig<DefaultThemeOptions>({
             children:[
               {
                 text:'数据结构以及相关术语的概念',
-                link:'/algorithm/data-structure'
+                link:'/algorithm/data-structure.md'
               },
               {
                 text:'栈',
-                link:'/algorithm/stack'
+                link:'/algorithm/stack.md'
               },
               {
                 text:'队列',
-                link:'/algorithm/queue'
+                link:'/algorithm/queue.md'
               },
               {
                 text:'链表',
-                link:'/algorithm/linked-list'
+                link:'/algorithm/linked-list.md'
               },
               {
                 text:'二叉树和二叉查找树',
-                link:'/algorithm/bst'
+                link:'/algorithm/bst.md'
               },
               {
                 text:'图',
-                link:'/algorithm/graph'
+                link:'/algorithm/graph.md'
               }
             ]
           },
@@ -601,15 +601,15 @@ export default defineUserConfig<DefaultThemeOptions>({
             children:[
               {
                 text:'算法的时间复杂度和空间复杂度',
-                link:'/algorithm/time-space'
+                link:'/algorithm/time-space.md'
               },
               {
                 text:'基本排序算法',
-                link:'/algorithm/basic-sort'
+                link:'/algorithm/basic-sort.md'
               },
               {
                 text:'高级排序算法',
-                link:'/algorithm/advance-sort'
+                link:'/algorithm/advance-sort.md'
               }    
             ]
           }
@@ -623,11 +623,11 @@ export default defineUserConfig<DefaultThemeOptions>({
             children:[
               {
                 text:'博客 Vue 文章汇总',
-                link:'/vue/all-posts'
+                link:'/vue/all-posts.md'
               },
               {
                 text:'Vue 奇技淫巧',
-                link:'/vue/skill'
+                link:'/vue/skill.md'
               }
             ]
           },
@@ -636,7 +636,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children:[
               {
                 text:'React技术栈相关经验总结',
-                link:'/react/experience-talk'
+                link:'/react/experience-talk.md'
               }
             ]
           },
@@ -645,15 +645,15 @@ export default defineUserConfig<DefaultThemeOptions>({
             children:[
               {
                 text:'webpack插件收集',
-                link:'/webpack/plugins'
+                link:'/webpack/plugins.md'
               },
               {
                 text:'webpack4.0+ 特性总结',
-                link:'/webpack/webpack4'
+                link:'/webpack/webpack4.md'
               },
               {
                 text:'webpack优化总结',
-                link:'/webpack/optimization'
+                link:'/webpack/optimization.md'
               },
             ]
           }
