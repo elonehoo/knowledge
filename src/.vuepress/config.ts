@@ -667,8 +667,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     [
       '@vuepress/plugin-docsearch',
       {
-        apiKey: '3a539aab83105f01761a137c61004d85',
-        indexName: 'vuepress',
+        apiKey: '65ae86d127691c36f04a4ba58437b0d9',
+        indexName: 'elonehoo-knowledge',
         searchParameters: {
           facetFilters: ['tags:v2'],
         },
