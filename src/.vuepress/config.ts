@@ -7,6 +7,14 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: 'knowledge',
   description: 'The knowledge that front-end (Not just) engineers must master after all',
+  head:[
+    [
+      'link', { href: "https://cdn.jsdelivr.net/npm/@docsearch/css@3", rel: "stylesheet" }
+    ],
+    [
+      'script', { src: "https://cdn.jsdelivr.net/npm/@docsearch/js@3" }
+    ]
+  ],
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
