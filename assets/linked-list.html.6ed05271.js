@@ -1,0 +1,1 @@
+const t={key:"v-529817a0",path:"/algorithm/linked-list.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u94FE\u8868",slug:"\u94FE\u8868",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"algorithm/linked-list.md"};export{t as data};

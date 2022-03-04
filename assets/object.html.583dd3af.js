@@ -1,0 +1,1 @@
+const e={key:"v-4c0166c0",path:"/basic/object.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Object.*",slug:"object",children:[]}],git:{updatedTime:1646137224e3,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"basic/object.md"};export{e as data};
