@@ -1,0 +1,1 @@
+const t={key:"v-21130cfa",path:"/http/cross-domain.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u8DE8\u57DF",slug:"\u8DE8\u57DF",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"http/cross-domain.md"};export{t as data};

@@ -1,0 +1,1 @@
+const e={key:"v-3ab84000",path:"/specification/mime.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"MIME type",slug:"mime-type",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"specification/mime.md"};export{e as data};

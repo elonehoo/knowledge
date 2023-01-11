@@ -1,0 +1,1 @@
+const a={key:"v-d8251daa",path:"/http/ajax.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"ajax",slug:"ajax",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"http/ajax.md"};export{a as data};

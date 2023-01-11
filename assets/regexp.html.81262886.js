@@ -1,0 +1,1 @@
+const e={key:"v-7acdff36",path:"/basic/regexp.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6B63\u5219\u8868\u8FBE\u5F0F",slug:"\u6B63\u5219\u8868\u8FBE\u5F0F",children:[]}],git:{updatedTime:1646137224e3,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"basic/regexp.md"};export{e as data};

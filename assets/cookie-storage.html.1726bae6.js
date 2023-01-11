@@ -1,0 +1,1 @@
+const e={key:"v-9d51d00e",path:"/http/cookie-storage.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"cookie \u8BE6\u8C08",slug:"cookie-\u8BE6\u8C08",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"http/cookie-storage.md"};export{e as data};

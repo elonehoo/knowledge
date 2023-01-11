@@ -1,0 +1,1 @@
+const t={key:"v-1ec2d401",path:"/git/config.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"git config \u914D\u7F6E\u9879",slug:"git-config-\u914D\u7F6E\u9879",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"git/config.md"};export{t as data};

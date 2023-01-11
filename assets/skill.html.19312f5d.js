@@ -1,0 +1,1 @@
+const e={key:"v-12cf048a",path:"/vue/skill.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Vue \u5947\u6280\u6DEB\u5DE7",slug:"vue-\u5947\u6280\u6DEB\u5DE7",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"vue/skill.md"};export{e as data};
