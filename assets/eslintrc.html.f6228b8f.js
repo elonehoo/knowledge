@@ -1,0 +1,1 @@
+const t={key:"v-2b45d7d2",path:"/specification/eslintrc.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"specification/eslintrc.md"};export{t as data};

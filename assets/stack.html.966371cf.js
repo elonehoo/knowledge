@@ -1,0 +1,1 @@
+const t={key:"v-deec3d2c",path:"/algorithm/stack.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6808",slug:"\u6808",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"algorithm/stack.md"};export{t as data};

@@ -1,0 +1,1 @@
+const e={key:"v-4e2d556c",path:"/specification/dtd.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6587\u6863\u6A21\u5F0F",slug:"\u6587\u6863\u6A21\u5F0F",children:[]}],git:{updatedTime:164614212e4,contributors:[{name:"xiaoxunyao",email:"huchengyea@163.com",commits:1}]},filePathRelative:"specification/dtd.md"};export{e as data};
