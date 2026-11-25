@@ -6,7 +6,7 @@
   "author": "Elone Hoo",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-rc.31"
+    "vuepress": "^2.0.0-rc.33"
   },
   "scripts": {
     "dev": "vuepress dev src",
